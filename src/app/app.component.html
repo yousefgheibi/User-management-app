@@ -1,2 +1,2 @@
-<app-add-user></app-add-user>
-<app-show-user></app-show-user>
+<app-add-user (onAddUserClicked)="userAdded($event)"></app-add-user>
+<app-show-user [users]="users"></app-show-user>
